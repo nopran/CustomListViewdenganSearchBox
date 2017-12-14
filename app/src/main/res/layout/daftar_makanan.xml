@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="55dp"
+        android:layout_height="70dp"
+        android:layout_margin="3dp"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:id="@+id/namamakanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/gambar"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/detailmakanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/gambar"
+        android:layout_below="@id/namamakanan"
+        android:layout_marginBottom="5dp"/>
+</RelativeLayout>
